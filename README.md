@@ -22,5 +22,5 @@ RUN apt update && apt install imagemagick libmagickwand-dev postgresql-server-de
 # docker pull gouailideyu/lsky-pro:2.0.4
 
 # 启动容器
-# docker run -d --name=lsky-pro --restart=always -v /path/to/mount/lsky-pro-data:/var/www/html -p 7791:80 dko0/lsky-pro:2.0.4
+# docker run -d --name=lsky-pro --restart=always -v /path/to/mount/lsky-pro-data:/var/www/html -p 91:80 gouailideyu/lsky-pro:2.0.4
 ```
